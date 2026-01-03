@@ -1,9 +1,10 @@
-import Square from '../square/Square'
+import Square from "../square/Square";
+import "../Label.css";
 
 const Board = ({ squares, onClick, jumpTo }) => {
   const renderSquare = (i) => {
-    return <Square value={squares[i]} onClick={() => onClick(i)} />
-  }
+    return <Square value={squares[i]} onClick={() => onClick(i)} />;
+  };
   return (
     <section className="game-section">
       <section className="game-board">
@@ -26,8 +27,9 @@ const Board = ({ squares, onClick, jumpTo }) => {
       <button className="restart" onClick={() => jumpTo(0)}>
         Restart the game
       </button>
+      <div class="made-with-love-badge">Made with ❤️ by Priyansh</div>
     </section>
-  )
-}
+  );
+};
 
-export default Board
+export default Board;
