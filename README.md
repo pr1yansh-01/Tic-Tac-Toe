@@ -2,7 +2,9 @@
 
 # Tic Tac Toe
 
-[Tic Tac Toe](https://tictactoe-0game.netlify.app/) game, a classic game for two players where each player takes turns marking a grid of 3x3 squares with their X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. It is also known as Noughts and Crosses or Xs and Os. The game is implemented using React and CSS
+- **Live demo:** https://pr1yansh-01.github.io/Tic-Tac-Toe/
+
+Tic Tac Toe is a classic two-player game where each player takes turns marking a 3×3 grid with X or O. The first to place three marks in a row (horizontal, vertical, or diagonal) wins. This project is implemented in React with CSS for styling.
 
 ## Game rules
 
