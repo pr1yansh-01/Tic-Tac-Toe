@@ -71,7 +71,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path="/" element={<Game />} />
+      <Route path="/*" element={<Game />} />
     </Routes>
   </Router>
 );
